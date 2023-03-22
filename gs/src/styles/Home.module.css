@@ -1,0 +1,159 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: rgb(29, 26, 26);
+  color: #fff;
+  border-radius: 1rem;
+  width: 20%;
+  margin: 0 auto;
+  height: 50px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  margin: 0 10px;
+}
+
+.nav a {
+  font-size: 1.3rem;
+  color: #60429e;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  transform: scale(2.1);
+  /* red */
+}
+
+
+.main {
+  /* max-width: 200px; */
+  margin: 0 auto;
+  /* padding: 50px; */
+}
+
+.h1 {
+  margin-top: 0px;
+  font-size: 3rem;
+    text-align: center;
+    font-weight: 800;
+
+  /* or any other value you prefer */
+}
+
+.p {
+  font-size: 1.3rem;
+  background-color: rgb(0, 0, 0);
+color: #60429e;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.footer {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.image {
+  text-align: center;
+  border-radius: 15%;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+/* Media Query for smaller devices like mobile */
+@media (max-width: 576px) {
+  .nav {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav li {
+    margin: 10px 0;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .h1 {
+    font-size: 2rem;
+  }
+
+  .p {
+    font-size: 1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Media Query for medium devices like tablets */
+@media (min-width: 576px) and (max-width: 992px) {
+  .nav {
+    width: 50%;
+  }
+
+  .nav li {
+    margin: 0 20px;
+  }
+
+  .main {
+    padding: 30px;
+  }
+
+  .h1 {
+    font-size: 2.5rem;
+  }
+
+  .p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Media Query for larger devices like laptops and desktops */
+@media (min-width: 992px) {
+  .nav {
+    width: 30%;
+  }
+
+  .nav li {
+    margin: 0 30px;
+  }
+
+  .main {
+    padding: 50px;
+  }
+
+  .h1 {
+    font-size: 3rem;
+  }
+
+  .p {
+    font-size: 1.3rem;
+  }
+}
