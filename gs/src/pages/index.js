@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link';
-
+import Listing from '@/pages/components/listing';
 import Home from './components/Home';
-import Battlefiled1 from './components/Battlefiled1';
+
 import Footer from './components/footer';
 export default function Main() {
   return ( 
@@ -16,7 +16,8 @@ export default function Main() {
       </Head>
       
       <Home />
-      <Battlefiled1/>
+    
+      <Listing/>
       <Footer></Footer>
   </>
   )

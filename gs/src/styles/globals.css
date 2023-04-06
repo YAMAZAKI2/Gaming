@@ -1,9 +1,29 @@
 
 
 html,
+/* body {
+  background: linear-gradient(to bottom right, #441b59, #374969, #72b087, #a96666);
+} */
 body {
-  background: linear-gradient(to bottom right, #282828, #434242, #8b008b, #ff69b4);
+    background: linear-gradient(to bottom right, #441b59, #374969, #72b087, #a96666);
+  /* set the background of the body to a solid color */
 }
+
+    a {
+      text-decoration: none;
+    }
+
+.wrapper {
+  background: linear-gradient(to bottom right, #441b59, #374969, #72b087, #a96666);
+  min-height: 100vh;
+  /* set the minimum height of the wrapper to the height of the viewport */
+  box-sizing: border-box;
+  padding: 50px;
+  /* add some padding to the wrapper to create some space between the content and the edge of the viewport */
+}
+
+
+
 ::-webkit-scrollbar {
   width: 12px;
   /* Width of the entire scrollbar */
@@ -19,12 +39,12 @@ body {
   /* Color of the scroll thumb */
   border-radius: 5px;
   /* Rounded corners of the thumb */
-  border: 2px solid #312537;
+  border: 2px solid #9e90a5;
   /* Border around the thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #463a3a;
+  background-color: #a19494;
   /* Color of the thumb on hover */
 }
 
