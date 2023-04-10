@@ -26,12 +26,14 @@ const Home = () => {
         </div>
 
         <div className={Styles.p}>
-          <p></p>
-          <p>As a game tester, I spend hours exploring every corner and crack of games to find and report bugs. But I don't do it alone. With the help of my sharp eye and trustworthy bug finder glasses, I catch even the slim bugs hiding in the shadows.
-            This website is my way of sharing my findings with the world.
+          <p>
+            As a passionate gamer, I have always been fascinated by the game development and testing. Over time, I have developed a talent for identifying and reporting bugs in games. Through hours of playing and testing, I have learned to thoroughly explore every aspect of games to uncover even the hardest-to-find issues.
+
+            This portfolio is where I share my findings with the world, including fellow developers.</p>
+
+          <p> I believe that gaming is a powerful medium that can bring people together, spark imagination, and create unforgettable experiences. By playing my part in finding and fixing bugs, I hope to contribute to the growth and success of the gaming industry.
           </p>
-          <p>Whether you're a fellow tester, a game developer,or just someone who enjoys a good laugh, you'll find valuable insights and knowledge here. Together, we can make the gaming world a better place by finding and fixing those annoying bugs, one at a time.</p>
-          <p> So, buckle up and get ready for a wild ride !!!</p>
+
           <Image className={Styles.honest} src={Honest} width={450} height={350} />
         </div>
       </main>

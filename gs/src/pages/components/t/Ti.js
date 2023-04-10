@@ -26,7 +26,7 @@ const Ti = () => {
         </div>
 
         <div className={Styles.p}>
-          <h2>1. Plants and tree's branch collision detection problem </h2>
+          <h2>1. Plants and tree's branch collision detection problem: </h2>
           <p>   In Chapter 4, "The Apprentice," of A Plague Tale: Innocence, an observation was made regarding a visual glitch. While walking on a constructed wooden platform over a river, plants appeared to pass through the platform. The plants seemed to be emerging from the river below and appearing on top of the platform, despite the wooden pallets being present. This same phenomenon was observed again when a tree branch appeared to pass through a rock fence. These observations suggest a possible issue with the game's programming and should be investigated further.
 
           </p>
@@ -39,7 +39,7 @@ const Ti = () => {
           <br>
           </br>
           <hr></hr>
-          <h2>2. AI Issue (Guards face difficulty to attack when player holds torch) </h2>
+          <h2>2. AI Issue (Guards face difficulty to attack when player holds torch): </h2>
           <p>  In Chapter 4, "The Apprentice," of A Plague Tale: Innocence, while playing the game and exploring the environment, an observation was made regarding a visual glitch. While walking on a wooden platform constructed of wooden pallets over a river, plants appeared to pass through the platform. The plants seemed to be emerging from the river below and appearing on top of the platform, despite the wooden pallets being present. This same phenomenon was observed again when a tree branch appeared to pass through a rock fence. These observations suggest a possible issue with the game's programming and should be investigated further.
 
           </p>

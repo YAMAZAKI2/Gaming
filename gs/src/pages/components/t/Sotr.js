@@ -24,7 +24,7 @@ const Sotr = () => {
         </div>
 
         <div className={Styles.p}>
-          <h2>1. Collision Detection Problem in cutscene  </h2>
+          <h2>1. Collision Detection Problem in cutscene:  </h2>
           <p>    During the "In the Shadows - Find Dominguez" objective, a cutscene featuring Lara and Jonah was triggered where they talked about the food at a street food stall. However, when Lara turned to walk away from the stall, she passed through an AI, causing a collision detection issue in the cutscene.
 
           </p>
@@ -37,7 +37,7 @@ const Sotr = () => {
           <br>
           </br>
           <hr></hr>
-          <h2>2. AI Collision Detection Problem with Raised Bow  </h2>
+          <h2>2. AI Collision Detection Problem with Raised Bow:  </h2>
           <p>  A collision detection issue with AI has been observed. The issue is like the one encountered in the previous Rise OF The Tomb Raider game, and it appears that no action has been taken to address it. When attempting to raise the bow on any AI in game, the bow passes through AI’s body easily, causing a collision detection issue.
           </p>
           <br />
@@ -49,7 +49,7 @@ const Sotr = () => {
           <br>
           </br>
           <hr></hr>
-          <h2>3. Improper implementation of AI and the object   </h2>
+          <h2>3. Improper implementation of AI and the object:   </h2>
           <p>  An AI programming issue has been observed in the salt farming area of the Hidden City. While exploring, an AI discovered not functioning properly. The AI's leg was in a basket with basket collision detection, and instead of putting the salt into the basket, it was placing it in the wrong location. This suggests that the AI had not been programmed correctly to fulfil its intended task.
 
           </p>

@@ -24,7 +24,7 @@ const Sotn = () => {
         </div>
 
         <div className={Styles.p}>
-          <h2>1. Bad implementation of physics  </h2>
+          <h2>1. Bad implementation of physics:  </h2>
           <p>     When playing Spirit of the North, a physics issue arises. Whenever the fox jumps on a rock or solid ice surface, its feet appear to not touch the surface. There is a noticeable gap between the fox's feet and the surface, even when the fox is at an angle. Additionally, the fox remains straight as if it were on a flat surface, which again cause of by its physics.
 
           </p>
@@ -37,7 +37,7 @@ const Sotn = () => {
           <br>
           </br>
           <hr></hr>
-          <h2>2. Fox and magical stick pass through solid objects due to collision detection issue   </h2>
+          <h2>2. Fox and magical stick pass through solid objects due to collision detection issue:   </h2>
           <p>  There was a collision detection problem in the game, which allowed the fox and the magical stick to pass through rocks and ice surfaces. The issue occurred when players controlled the fox to move towards rocks or ice surfaces while carrying the magical stick. Sometimes, the fox's head could pass through the rocks and ice, and both sides of the magical stick could pass through anything as well, due to its length. However, it was acceptable for the magical stick because some terrains were narrow and sometimes the fox was supposed to go through caves and small entries, but it could have been implemented with a better solution.
           </p>
           <br />
